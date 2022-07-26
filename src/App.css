@@ -38,7 +38,7 @@
 }
 
 .bgvi {
-  background-color:rgb(97, 50, 205);
+  background-color: rgb(97, 50, 205);
   color: aliceblue;
 }
 
@@ -52,4 +52,10 @@
 
 .center {
   text-align: center;
+}
+
+@media print {
+  .btn {
+    display: none;
+  }
 }
